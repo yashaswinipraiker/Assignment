@@ -1,0 +1,76 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+header {
+  position: relative;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav ul li.emoji {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+nav ul {
+  position: relative;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+nav ul li.emoji {
+  font-size: 20px;
+}
+
+section#hero {
+  background-image: url('img1.jpg');
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 100px;
+  color: #fff;
+  height: 100vh;
+}
+
+.hero-text {
+  display: inline-block;
+  max-width: 50%;
+  text-align: left;
+}
+
+.hero-text {
+  background-color: rgba(255, 0, 0, 0.7);
+  padding: 20px;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
